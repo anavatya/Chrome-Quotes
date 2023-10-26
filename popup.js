@@ -25,6 +25,10 @@ document.addEventListener("DOMContentLoaded", function () {
       text: "The best time to plant a tree was 20 years ago. The second best time is now.",
       author: "Chinese Proverb",
     },
+    {
+      text: "Well done is better than well said.",
+      author: "Benjamin Franklin",
+    },
   ];
 
   // Function to change the quote and background
