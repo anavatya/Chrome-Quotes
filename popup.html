@@ -1,42 +1,48 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Motivational Quotes</title>
-  <script src="popup.js"></script>
-  <style>
-    body {
-      min-width: 250px;
-      min-height: 450px;
-      background-color: darkgray;
-      border-radius: 25px;
-      white-space: pre-line;
-    }
-    #quote {
-      font-size: 18px;
-      margin-bottom: 10px;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      font-style: oblique;
-      min-height: 100px;
-    }
-    #background {
-      width: 250px;
-      height: 250px;
-      margin-bottom: 10px;
-      border-radius: 5px;
-    }
-    #change-quote {
-      background-color: #A1BEEA;
-      padding: 10px 20px;
-      border-radius: 20px;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-  </style>
-</head>
-<body>
-  <div id="quote"></div>
-  <img id="background" src="default_background.jpg" alt="Nature Background">
-  <button id="change-quote">Change Quote</button>
-</body>
+  <head>
+    <title>Motivational Quotes</title>
+    <script src="popup.js"></script>
+    <style>
+      body {
+        min-width: 250px;
+        min-height: 450px;
+        background: rgb(163, 207, 206);
+        background: linear-gradient(
+          90deg,
+          rgba(163, 207, 206, 1) 17%,
+          rgba(161, 190, 234, 1) 56%,
+          rgba(208, 211, 201, 1) 96%
+        );
+        border-radius: 25px;
+        white-space: pre-line;
+      }
+      #quote {
+        font-size: 18px;
+        margin-bottom: 10px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-style: oblique;
+        min-height: 100px;
+      }
+      #background {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+      }
+      #change-quote {
+        background-color: #a1beea;
+        padding: 10px 20px;
+        border-radius: 20px;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="quote"></div>
+    <img id="background" src="default_background.jpg" alt="Nature Background" />
+    <button id="change-quote">Change Quote</button>
+  </body>
 </html>
